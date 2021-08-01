@@ -1,0 +1,74 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <!-- Main Buttons  -->
+    <system:String x:Key="source">Kaynak</system:String>
+    <system:String x:Key="source:">Kaynak:</system:String>
+    <system:String x:Key="destination">Hedef</system:String>
+    <system:String x:Key="destination:">Hedef:</system:String>
+    <system:String x:Key="cancel">İptal</system:String>
+    <!-- Main Tab Control  -->
+    <system:String x:Key="summary">Özet</system:String>
+    <system:String x:Key="filters">Filtreler</system:String>
+    <system:String x:Key="video">Video</system:String>
+    <system:String x:Key="audio">Ses</system:String>
+    <system:String x:Key="subtitles">Altyazılar</system:String>
+    <system:String x:Key="preferences">Tercihler</system:String>
+    <!-- Summary Page Tab Control  -->
+    <system:String x:Key="input_output">Girdi / Çıktı</system:String>
+    <system:String x:Key="no_source">Kaynak Seçilmedi</system:String>
+    <system:String x:Key="no_destination">Hedef Seçilmedi</system:String>
+    <system:String x:Key="video_information">Video Bilgileri</system:String>
+    <system:String x:Key="video_length">Uzunluk:</system:String>
+    <system:String x:Key="video_color_format">Renk Formatı:</system:String>
+    <system:String x:Key="video_framerate">Kare Hızı:</system:String>
+    <system:String x:Key="video_resolution">Çözünürlük:</system:String>
+    <system:String x:Key="current_encoding_settings">Geçerli Kodlama Ayarları</system:String>
+    <system:String x:Key="encoder:">Kodlayıcı:</system:String>
+    <system:String x:Key="bit-depth:">Bit Derinliği:</system:String>
+    <system:String x:Key="speed:">Hız:</system:String>
+    <system:String x:Key="passes:">Geçiş Sayısı:</system:String>
+    <system:String x:Key="workers_and_splitting">İşleme &amp; Bölme</system:String>
+    <system:String x:Key="worker_count:">İşlem Sayısı:</system:String>
+    <system:String x:Key="priority:">Öncelik:</system:String>
+    <system:String x:Key="splitting_method:">Bölme Yöntemi:</system:String>
+    <system:String x:Key="chunk_length:">Parça Uzunluğu (sn):</system:String>
+    <system:String x:Key="skip_reencoding:">Yeniden Kodlamayı Atla</system:String>
+    <!-- Filters Page Tab Control  -->
+    <system:String x:Key="crop">Kırp</system:String>
+    <system:String x:Key="resize">Yeniden Boyutlandır</system:String>
+    <system:String x:Key="deinterlace">Görüntü Ayrıştırma</system:String>
+    <system:String x:Key="rotate">Döndür</system:String>
+    <system:String x:Key="top">Üstten</system:String>
+    <system:String x:Key="right">Sağdan</system:String>
+    <system:String x:Key="left">Soldan</system:String>
+    <system:String x:Key="bottom">Alttan</system:String>
+    <system:String x:Key="width:">Genişlik:</system:String>
+    <system:String x:Key="heigtht:">Yükseklik:</system:String>
+    <system:String x:Key="scaling_algorithm:">Ölçekleme Algoritması:</system:String>
+    <system:String x:Key="rotate_clockwise:">Döndür (Saat Yönünde):</system:String>
+    <!-- Video Page Tab Control  -->
+    <system:String x:Key="advanced_settings:">Gelişmiş Ayarlar:</system:String>
+    <system:String x:Key="optimisation">Optimizasyon</system:String>
+    <system:String x:Key="real_time_mode">Gerçek Zamanlı Mod</system:String>
+    <system:String x:Key="vfr_information">Sadece video VFR ise; hem giriş hem de çıkış MKV olmalıdır!</system:String>
+    <system:String x:Key="slowest">| En Yavaş</system:String>
+    <system:String x:Key="fastest">En Hızlı |</system:String>
+    <system:String x:Key="quality">Kalite</system:String>
+    <system:String x:Key="constant_quality:">Sabit Kalite:</system:String>
+    <system:String x:Key="lowest_quality">| En Düşük Kalite</system:String>
+    <system:String x:Key="highest_quality">En Yüksek Kalite |</system:String>
+    <!-- Audio Page Tab Control  -->
+    <system:String x:Key="channels:">Kanallar:</system:String>
+    <system:String x:Key="language:">Dil:</system:String>
+    <!-- Preferences Page Tab Control  -->
+    <system:String x:Key="program_settings">Program Ayarları</system:String>
+    <system:String x:Key="batch_settings">Toplu Dosya Ayarları</system:String>
+    <system:String x:Key="theme">Tema</system:String>
+    <system:String x:Key="delete_temp_files">Kodlama Sonrası Geçici Dosyaları Sil</system:String>
+    <system:String x:Key="shutdown_after_encode">Kodlamadan Sonra PC'yi Kapat</system:String>
+    <system:String x:Key="open_temp_folder">Aç</system:String>
+    <system:String x:Key="custom_temp_path">Geçici Kalsör Yolu</system:String>
+
+</ResourceDictionary>
